@@ -1,5 +1,9 @@
 """
 This is the core exchange class
+
+Orders are matched at the price on the exchange. 
+   - If we have a sell order at 200 and a buy order comes in at 1000 we will sell at 200
+   - If we have a buy order at 200 and a sell order comes in at 50 we will sell at 200
 """
 from exchange.components.match import Match
 from exchange.components.order import Order, OrderType
