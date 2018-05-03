@@ -95,6 +95,11 @@ class UnmatchedOrderBook:
 
     @staticmethod
     def __summarise_order_dict(order_dict):
+        """
+        This could be faster. I could eliminate the need to itterate over the queue by making a queue class that
+        tracks the size of the orders that it contains. It will always need to check the order at the end of the
+        queue as this order's unmatched size can change.
+        """
         order_dict_summary = SortedDict()
 
         for price in order_dict.iterkeys():
