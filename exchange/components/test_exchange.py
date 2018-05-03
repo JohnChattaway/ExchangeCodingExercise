@@ -128,8 +128,6 @@ class TestExchange(TestCase):
             exchange.submit_sell(price=0, size=100)
             exchange.submit_sell(price=10, size=0)
 
-        print(exchange)
-
     def test_big_numbers(self):
         exchange = Exchange()
 
