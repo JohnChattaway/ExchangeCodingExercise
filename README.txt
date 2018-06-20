@@ -2,6 +2,10 @@ Coding Exercise
 ===============
 
 Write a simple exchange app with a REST API that trades a single stock.
+Create three endpoints:
+- Submit a limit order, buy and sell
+- Retrieve order details
+- Return a summary of the open order book
 
 Docker
 ======
