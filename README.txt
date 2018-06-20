@@ -1,5 +1,7 @@
-Coding Exercise - LendingBlock
-==============================
+Coding Exercise 
+===============
+
+Write a simple exchange app with a REST API that trades a single stock.
 
 Docker
 ======
